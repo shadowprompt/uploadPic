@@ -1,5 +1,5 @@
 html {
-  font-size: 50px;
+  font-size: 50px; //利用rem布局
 }
 #thumbnail1,
 #thumbnail0 {
