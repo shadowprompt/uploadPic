@@ -28,14 +28,14 @@
 	<script src="jquery.min.js"></script>
 	<script>
 		(function(){
-			var uploadInfo={
+			var uploadInfo={ //第一个上传文件框对应信息
 				0:{
 					"uploadDiv":"",
 					"fileInput":"",
 					"image":"",
-					"thumbnail":"",
-					"arr":[],
-					"hash":[]
+					"thumbnail":"", 
+					"arr":[], //存储上传图片的base64信息，
+					"hash":[] //存储上传图片的文件名
 				},
 				1:{
 					"uploadDiv":"",
